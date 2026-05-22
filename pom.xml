@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.ascentbusiness</groupId>
+    <groupId>io.github.devnexus-sdp</groupId>
     <artifactId>spring-boot-duplicate-checker-annotation</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>Spring Boot Duplicate Checker</name>
     <description>A generic, reusable duplicate data checker library for Spring Boot applications with support for JHipster-style criteria queries and field-based comparisons</description>
-    <url>https://github.com/ascentbusiness/spring-boot-duplicate-checker</url>
+    <url>https://github.com/devnexus-sdp/duplicate_check_custom_annotation</url>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -22,9 +22,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/shivampaliwal24/spring-boot-duplicate-checker.git</connection>
-        <developerConnection>scm:git:ssh://github.com:shivampaliwal24/spring-boot-duplicate-checker.git</developerConnection>
-        <url>https://github.com/shivampaliwal24/spring-boot-duplicate-checker/tree/main</url>
+        <connection>scm:git:git://github.com/devnexus-sdp/spring-boot-duplicate-checker.git</connection>
+        <developerConnection>scm:git:ssh://github.com:devnexus-sdp/spring-boot-duplicate-checker.git</developerConnection>
+        <url>https://github.com/devnexus-sdp/spring-boot-duplicate-checker/tree/main</url>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
