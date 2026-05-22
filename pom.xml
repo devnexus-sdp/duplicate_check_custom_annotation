@@ -16,9 +16,9 @@
     </licenses>
     <developers>
         <developer>
-            <id>shivampaliwal24</id>
+            <id>devnexus-sdp</id>
             <name>Shivam Paliwal</name>
-            <email>shivam.paliwal74484@gmail.com</email>
+            <email>paliwalshivam93.vns@gmail.com</email>
         </developer>
     </developers>
     <scm>
@@ -185,9 +185,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>3.1.0</version>
-                <configuration>
-                    <skip>true</skip>
-                </configuration>
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>

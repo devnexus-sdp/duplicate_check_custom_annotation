@@ -22,7 +22,6 @@
             <properties>
                 <!-- GPG Configuration -->
                 <gpg.executable>C:\Program Files\GnuPG\bin\gpg.exe</gpg.executable>
-                <!-- GPG agent will handle passphrase automatically -->
             </properties>
         </profile>
     </profiles>
