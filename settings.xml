@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 
+          http://maven.apache.org/xsd/settings-1.2.0.xsd">
+
+    <servers>
+        <!-- Sonatype Central Publisher Token -->
+        <server>
+            <id>central</id>
+            <username>a5EtbW</username>
+            <password>Jo7wWoDl5eHLxJR53IAcMX4G47eXQBJs6</password>
+        </server>
+    </servers>
+
+    <profiles>
+        <profile>
+            <id>central-publisher</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!-- GPG Configuration -->
+                <gpg.executable>C:\Program Files\GnuPG\bin\gpg.exe</gpg.executable>
+                <!-- GPG agent will handle passphrase automatically -->
+            </properties>
+        </profile>
+    </profiles>
+</settings>
